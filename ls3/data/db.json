@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "US5e808a5c-1006-4c50-9af2-3835ad628ce6",
+      "userName": "MindXMoi1"
+    },
+    {
+      "id": "US78c7e9a7-2e1d-412f-af19-e2705abcde62",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US0fe558df-664a-4538-a89a-cb0616cf3e29",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "USa7dd26e4-903e-4b12-880e-ea597d7c002a",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US6475776f-c167-4601-b7ca-340ccbcfb9ef",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "USf96588f1-becb-4ace-a546-6cb7fe191b89",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US816897d1-bd33-4532-891c-61495ce442cd",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US921b8bd8-1072-473e-acd1-34449b789e1b",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US3ae5e16d-2ba7-4767-951d-644dd73156d0",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "US982584e4-c61d-4622-99af-ea36223b49af",
+      "userName": "MindXMoi2"
+    },
+    {
+      "id": "USe6623cf7-c749-4630-b8ab-67d38ee61fa8",
+      "userName": "MindXMoi2"
+    }
+  ],
+  "posts": [
+    {
+      "id": "PS001",
+      "content": "Nội dung học về JSON Server!",
+      "authorId": "US001"
+    },
+    {
+      "id": "POd6b0bbb8-63c9-4f0a-97aa-d90e794ede1b",
+      "content": "Nội dung học về ExpressJS!",
+      "authorId": "US982584e4-c61d-4622-99af-ea36223b49af"
+    },
+    {
+      "id": "POe5fa7384-92b4-4000-9b3a-2a167ffe4dd2",
+      "content": "Nội dung học về ReactJS!",
+      "authorId": "US982584e4-c61d-4622-99af-ea36223b49af"
+    },
+    {
+      "content": "Nội dung học về ReactJS!",
+      "id": "POcb88ec7e-f218-4219-8eb4-d34acdc0b600"
+    },
+    {
+      "id": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c",
+      "content": "Nội dung học về ExpressJS!",
+      "authorId": "US982584e4-c61d-4622-99af-ea36223b49af"
+    }
+  ],
+  "comments": [
+    {
+      "id": "CMT001",
+      "postId": "PS001",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn MindX!",
+      "authorId": "US002"
+    },
+    {
+      "id": "CMT1b91f72d-d585-4180-9193-99dfc6fb8c83",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn MindX!",
+      "authorId": "US6475776f-c167-4601-b7ca-340ccbcfb9ef",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMTc1c4cfd0-f458-4502-9c2e-c3cc2d88204c",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "US6475776f-c167-4601-b7ca-340ccbcfb9ef",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMTa397872f-1022-47aa-8a53-5005d08953db",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "US6475776f-c167-4601-b7ca-340ccbcfb9ef",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMT12fb5487-bb17-4b8c-941a-b03e82e54b55",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "Anonymous",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMT9b1fd81d-3903-4c80-98cb-6eaf49acf175",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "Anonymous",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMTef310835-10cb-412d-8bbc-7b75baae9914",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "Anonymous",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMTf16a5d78-5915-410a-be7e-c9e1603e62e2",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "Anonymous",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    },
+    {
+      "id": "CMT43cc2010-9ddc-4080-bf12-c3bf54dbe758",
+      "content": "Bài học này rất ý nghĩa! Cảm ơn JS!",
+      "authorId": "Anonymous",
+      "postId": "PO957858f8-5f61-44eb-8a2c-cb97c8a1b48c"
+    }
+  ]
+}
+

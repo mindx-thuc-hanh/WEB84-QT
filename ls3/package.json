@@ -1,0 +1,21 @@
+{
+  "name": "ls3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"node --watch index.js\" \"json-server --watch data/db.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
