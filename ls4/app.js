@@ -1,7 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import PostsModel from './models/posts.js';
-import UsersModel from './models/users.js';
+import rootRouter from './routers/rootRouter.js';
 
 const app = express();
 
@@ -20,23 +19,8 @@ const connectDb = async () => {
     }
 }
 
-app.post('/posts', async (req, res) => {
-    try {
-        const newPost = await PostsModel.create(req.body)
-        res.send(newPost)
-    } catch (err) {
-        res.send(err)
-    }
-})
+app.use('/', rootRouter)
 
-app.get('/posts', async (req, res) => {
-    try {
-        const posts = await PostsModel.find({})
-        res.send(posts)
-    } catch (err) {
-        res.send(err)
-    }
-})
 
 app.listen(3000, () => {
     connectDb()
