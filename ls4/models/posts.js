@@ -3,12 +3,11 @@ import mongoose from 'mongoose';
 // NoSQL 
 // structure
 const postSchema = new mongoose.Schema({
-    
-    userId: {
+    userIds: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'users',
-        required:true
-    },
+        required: true
+    }],
     content: String,
     isPublic: {
         type: Boolean,

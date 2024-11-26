@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
     isAdmin: {
         type: Boolean,
         default: false
+    },
+    isActive:{
+        type:String,
+        default: 'danghoatdong'
     }
     // posts: [{
     //     type: mongoose.Schema.Types.ObjectId,
